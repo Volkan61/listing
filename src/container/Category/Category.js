@@ -377,6 +377,7 @@ class Category extends Component {
 
         var output;
 
+
         output = (
             <div className="Category">
                 <div>
@@ -387,6 +388,7 @@ class Category extends Component {
                         <input onKeyPress={this.addNewList}
                                className={this.props.categories.createList ? 'NotHidden' : 'Hidden'}
                                onChange={(e) => this.props.changeInputValue(e.target.value)}></input>
+
                     </div>
 
                     <div className="createListButton" onClick={this.toogleVisibilityListCreation}>+ Ordner erstellen
