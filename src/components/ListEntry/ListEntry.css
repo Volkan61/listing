@@ -1,0 +1,27 @@
+.ListEntry {
+    background: #fff;
+    height:18px;
+    border: 1px solid gray;
+    margin-bottom:2px;
+}
+
+.TextAlign {
+    text-align: left;
+    margin-left:0px;
+    font-size: 11px;
+    margin-bottom:3px;
+
+
+}
+
+
+
+.TextAlignHighlighted {
+    text-align: left;
+    margin-left:5px;
+    background-color:red;
+}
+
+.checkbox {
+    margin: 3px 3px 3px 3px;
+}

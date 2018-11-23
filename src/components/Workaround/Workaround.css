@@ -1,0 +1,34 @@
+.Body {
+
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+    background: #ffffff;
+
+}
+
+
+
+.column {
+     flex: 50%;
+ }
+
+
+.category {
+     width: 240px;
+    padding: 22px;
+
+}
+
+
+
+.entries {
+    flex: 50%;
+    padding: 22px;
+}
+
+
+

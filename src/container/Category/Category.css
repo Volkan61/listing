@@ -1,0 +1,20 @@
+.Category {
+    background: #ffffff;
+}
+
+.createListButton{
+    color: cornflowerblue;
+}
+
+
+.Hidden {
+    visibility:hidden;
+}
+
+.NotHidden {
+    visibility:visible;
+}
+
+.folder {
+color:red
+}
