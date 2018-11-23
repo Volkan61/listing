@@ -281,12 +281,14 @@ class Category extends Component {
             const data = {
                 text: this.props.categories.inputValue,
                 id: this.props.categories.parentId,
+                spriteCssClass: "list"
+
             };
 
             var newArray = this.props.categories.categories.slice();
             newArray.push(data)
             this.props.setCategories(newArray);
-            this.sender.append({id: 999, text: this.props.categories.inputValue + " (wird gespeichert...)"});
+           this.sender.append({id: 999, text: this.props.categories.inputValue + " (wird gespeichert...)", spriteCssClass:"list"});
 
 
             axios.post('http://127.0.0.1:8000/api/category', data).then(response => {
@@ -296,7 +298,7 @@ class Category extends Component {
                 this.sender.remove(result);
                 this.sender.append({id: 999, text: this.props.categories.inputValue});
 
-                this.updateDomCategoryElement(999, {id: 999, text: this.props.categories.inputValue});
+                this.updateDomCategoryElement(999, {id: 999, text: this.props.categories.inputValue, spriteCssClass:"list"});
 
                 var id = posts['quote'].id;
 
@@ -316,7 +318,8 @@ class Category extends Component {
                     this.updateDomCategoryElement(999, {
                         id: 999,
                         text: this.props.categories.inputValue,
-                        listen_id: id
+                        listen_id: id,
+                        spriteCssClass:"list"
                     });
                 });
             });
@@ -338,19 +341,20 @@ class Category extends Component {
             const data = {
                 text: this.props.categories.inputValue,
                 id: this.props.categories.parentId,
+                spriteCssClass: "folder"
             };
 
             var newArray = this.props.categories.categories.slice();
             newArray.push(data)
             this.props.setCategories(newArray);
-            this.sender.append({id: 999, text: this.props.categories.inputValue + " (wird gespeichert...)"});
+            this.sender.append({id: 999, text: this.props.categories.inputValue + " (wird gespeichert...)", spriteCssClass:"folder"});
 
             axios.post('http://127.0.0.1:8000/api/category', data).then(response => {
                 const posts = response.data;
                 var toBeDeleted = this.sender.dataSource.get(999)
                 var result = this.sender.findByUid(toBeDeleted.uid);
                 this.sender.remove(result);
-                this.sender.append({id: 999, text: this.props.categories.inputValue});
+                this.sender.append({id: 999, text: this.props.categories.inputValue, spriteCssClass:"folder"});
             });
         }
     }
@@ -362,7 +366,8 @@ class Category extends Component {
         var tree;
 
         if (this.state.data2 != null) {
-            tree = (<TreeView select={this.onSelect}
+            tree = (            <div id="treeview">
+                <TreeView select={this.onSelect}
                               change={this.onChange}
                               click={this.onChange}
                               drag={this.onDrag}
@@ -372,7 +377,7 @@ class Category extends Component {
                               dragAndDrop={true}
 
 
-            />);
+            /></div>);
         }
 
         var output;
@@ -408,7 +413,6 @@ class Category extends Component {
         return output
     }
 }
-
 
 const mapDispatchToProps = dispatch => {
     return {

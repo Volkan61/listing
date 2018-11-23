@@ -26,8 +26,6 @@ class Workaround extends Component {
     }
 
 
-
-
     setAbc = (news) => {
         var newArray = this.props.entries.entries.slice();
 

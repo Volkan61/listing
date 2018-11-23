@@ -15,6 +15,15 @@
     visibility:visible;
 }
 
-.folder {
-color:red
+
+
+#treeview .k-sprite {
+    background-image: url("../../coloricons-sprite.png");
 }
+
+
+.rootfolder { background-position: 0 0; }
+.folder     { background-position: 0 -16px; }
+.pdf        { background-position: 0 -32px; }
+.html       { background-position: 0 -48px; }
+.image      { background-position: 0 -64px; }
