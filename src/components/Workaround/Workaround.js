@@ -130,6 +130,7 @@ class Workaround extends Component {
             });
     }
 
+
     postDeleteVideo = (id) => {
         axios.post('http://127.0.0.1:8000/api/deleteVideo'+'/'+id)
             .then(response => {

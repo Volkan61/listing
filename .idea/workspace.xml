@@ -56,7 +56,7 @@
         <counts>
           <entry key="css" value="283" />
           <entry key="html" value="103" />
-          <entry key="js" value="3545" />
+          <entry key="js" value="3546" />
           <entry key="json" value="2" />
           <entry key="txt" value="7" />
         </counts>
@@ -66,7 +66,7 @@
           <entry key="CSS" value="283" />
           <entry key="HTML" value="103" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="3545" />
+          <entry key="JavaScript" value="3546" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Workaround/Workaround.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="357">
+              <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -353,7 +353,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Volkan/Desktop/Neuer Ordner (3)/test/node_modules/@progress/kendo-treeview-react-wrapper/dist/npm/treeview/index.d.ts" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542983699616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542983861872" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -418,7 +418,7 @@
       <workItem from="1542570923841" duration="1678000" />
       <workItem from="1542895428898" duration="7846000" />
       <workItem from="1542910244442" duration="5562000" />
-      <workItem from="1542975955493" duration="4011000" />
+      <workItem from="1542975955493" duration="4173000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1542982559526</created>
@@ -431,7 +431,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111954000" />
+    <option name="totallyTimeSpent" value="112116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,6 +444,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1699" y="86" width="1531" height="881" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -770,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Workaround/Workaround.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="357">
+          <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
