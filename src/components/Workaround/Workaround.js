@@ -116,7 +116,6 @@ class Workaround extends Component {
         })
     }
 
-
     postDataHandler = (text) => {
         const data = {
             text: text,
