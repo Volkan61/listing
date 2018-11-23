@@ -3,9 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.4.0",
+    "@material-ui/icons": "^3.0.1",
+    "@progress/kendo-theme-bootstrap": "^2.16.0",
+    "@progress/kendo-theme-default": "^2.60.0",
+    "@progress/kendo-theme-material": "^1.5.0",
+    "@progress/kendo-treeview-react-wrapper": "^2018.3.1017",
+    "@progress/kendo-ui": "^2018.3.1107",
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
+    "kendo": "^0.14.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "react-grid-layout": "^0.16.6",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-treebeard": "^3.1.0",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "videojs-ima": "^1.5.1",
+    "videojs-vast-vpaid": "^3.0.0-beta.8"
   },
   "scripts": {
     "start": "react-scripts start",
